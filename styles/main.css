@@ -79,6 +79,8 @@ li {
 #user--name {
   font-size: 48px;
   line-height: 1em;
+  text-decoration: center;
+  align-items: center;
 }
 
 #bio,
