@@ -66,15 +66,15 @@ li {
   grid-template-columns: repeat(2.1fr);
   align-items: center; */
 }
-
-.section--page {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
 #wrapper--hero {
   display: flex;
   align-items: center;
   gap: 4em;
+}
+
+.section--page {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 #user--name {
   font-size: 48px;
@@ -149,7 +149,10 @@ a {
   font-size: 0.9em;
 }
 .card--techstack {
-  border: 1px solid var(--mainLinkColor);
+  border: 2px solid var(--mainBorderColor);
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
